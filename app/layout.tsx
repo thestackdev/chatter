@@ -12,7 +12,7 @@ import { QueryProvider } from '@/components/providers/query-provider'
 const font = Open_Sans({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Discord',
+  title: 'Chatter',
   description: 'Discussions made easy',
 }
 
@@ -32,7 +32,7 @@ export default function RootLayout({
             attribute="class"
             defaultTheme="dark"
             enableSystem={false}
-            storageKey="discord-theme"
+            storageKey="chatter-theme"
           >
             <SocketProvider>
               <ModalProvider />
